@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Rsschool cv</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#code">Code</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#language">Language</a></li>
+                </ul>
+                <button class="header__nav-toggler"></button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <img class="avatar" src="./assets/img/avatar.jpeg" alt="avatar">
+                    <div class="intro__content">
+                        <h1>Omurova Tinatin</h1>
+                        <h2>Junior Front-end Developer</h2>
+                        <p>Love South Korea, love coding! My main goal is to get a job as a Front-end Developer in one of the leading IT companies in South Korea</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <h2 class="title">Contacts</h2>
+                    <ul>
+                        <li class="contacts__item">Bishkek,Kyrgyzstan</li>
+                        <li class="contacts__item">Email: <a href="#">omurovatinatin@gmail.com</a></li>
+                        <li class="contacts__item">Tel: <a href="#">+996705160622</a></li>
+                        <li class="contacts__item">GitHub: <a href="#">Tinatin-art</a></li>
+                        <li class="contacts__item">Telegram: <a href="#">@Blue0Rose</a></li>
+                        <li class="contacts__item">Facebook: <a href="#">tinatin.omurova.7</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills__inner">
+                    <h2 class="title">Skills</h2>
+                    <ul>
+                        <li class="skills__item">Web-development: <span>HTML5, CSS3, JavaScript</span></li>
+                        <li class="skills__item">Frameworks and libraries: <span>Bootstrap, Basic React</span></li>
+                        <li class="skills__item">Version control: <span>GIT, Github, GitLab</span></li>
+                        <li class="skills__item">Graphics: <span>Figma</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="code" id="code">
+            <div class="container">
+                <div class="code__inner">
+                    <h2 class="title">Code</h2>
+                    <pre>
+                        <code>
+                            <span class="code-function">function</span><span class="code-f">typeOfSum</span>(a, b){
+                                <span class="code-condition">if</span>(typeof(a) === "string" || typeof(b) === "string"){
+                                    <span class="code-return">return</span>'string'
+                                }<span class="code-condition">else</span>{
+                                    <span class="code-return">return</span>'number'
+                                }
+                              }
+                              <span class="code-cgl">console.log</span>(<span class="code-f">typeOfSum</span>(1, 2));
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="projects__inner">
+                    <h2 class="title">Projects</h2>
+                    <ul class="projects__items">
+                        <li class="projects__item"><a class="projects__link" href="https://tinatin-art.github.io/KG-Frutti/">KG Frutti</a></li>
+                        <li class="projects__item"><a class="projects__link" href="https://phoenix-520.github.io/PhoeniX-Website-v3.0/">Phoenix</a></li>
+                        <li class="projects__item"><a class="projects__link" href="https://tinatin-art.github.io/Muikid-50k/">Muikid</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="container">
+                <div class="education__inner">
+                    <h2 class="title">Education</h2>
+                    <ul>
+                        <li class="education__item">Bishkek State University named after K. Karasaeva <span>Bachelor,Bishkek city</span></li>
+                        <li class="education__item">Soonchunhyang University <span>Traineeship, Asan city, South Korea</span> </li>
+                        <li class="education__item">50k programmers & Juldyz Academy (Kelechek) <span>Basic knowledge of web development knowledge using JavaScript and React JS.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="language" id="language">
+            <div class="container">
+                <div class="language__inner">
+                    <h2 class="title">Languages</h2>
+                    <ol>
+                        <li class="language__item">Kyrgyz <span>(native Language)</span></li>
+                        <li class="language__item">Russian <span>(second Language)</span></li>
+                        <li class="language__item">English <span>- Intermediate</span></li>
+                        <li class="language__item">Korean <span>- Level 4</span></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__inner">
+                <div class="copyright">© 2022 <a href="https://github.com/Tinatin-art" class="github nav-link">Tinatin-art</a></div>
+                <a href="https://rs.school/js/" class="rss"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
